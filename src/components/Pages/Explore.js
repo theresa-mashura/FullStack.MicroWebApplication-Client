@@ -10,7 +10,7 @@ const Explore = () => {
     const url2 = "https://zt-theresa.herokuapp.com/file/download/170";
     const url3 = "https://zt-theresa.herokuapp.com/file/download/180";
     const url4 = "https://zt-theresa.herokuapp.com/file/download/175";
-    const url5 = "https://zt-theresa.herokuapp.com/ile/download/162";
+    const url5 = "https://zt-theresa.herokuapp.com/file/download/162";
     const url6 = "https://zt-theresa.herokuapp.com/file/download/147";
     const url7 = "https://zt-theresa.herokuapp.com/file/download/177";
 
