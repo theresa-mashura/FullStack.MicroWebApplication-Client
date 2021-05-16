@@ -31,7 +31,7 @@ class Profile extends React.Component {
     componentDidMount() {
         const {user} = this.props.auth0;
         const {name} = user;
-        fetch(`http://ziptubeserverv2-env.eba-zfjkmcip.us-east-1.elasticbeanstalk.com/video/getComment/user/${name}`)
+        fetch(`https://zt-theresa.herokuapp.com/video/getComment/user/${name}`)
             .then(res => res.json())
             .then(
                 (result) => {
