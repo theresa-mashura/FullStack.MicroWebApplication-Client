@@ -14,7 +14,7 @@ class History extends React.Component {
     componentDidMount() {
         const {user} = this.props.auth0;
         const {name} = user;
-        fetch(`http://ziptubeserverv2-env.eba-zfjkmcip.us-east-1.elasticbeanstalk.com/video/uploadUser/${name}`)
+        fetch(`https://zt-theresa.herokuapp.com/video/uploadUser/${name}`)
             .then(res => res.json())
             .then(
                 (result) => {
